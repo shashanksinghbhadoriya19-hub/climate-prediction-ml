@@ -7,38 +7,41 @@ and deployment using Streamlit.
 ## Project Objective
 
 The objective of this project is to:
-- Train a machine learning model using historical weather data
-- Predict temperature based on weather conditions
-- Deploy the model using a Streamlit web application
+
+* Train a machine learning model using historical weather data
+* Predict temperature based on weather conditions
+* Deploy the model using a Streamlit web application
 
 ## Machine Learning Details
 
-- Algorithm used: Random Forest Regression
-- Input features:
-  - Precipitation
-  - Minimum Temperature
-  - Wind Speed
-- Target output:
-  - Maximum Temperature
-- Feature scaling: StandardScaler
+* Algorithm used: Random Forest Regression
+* Input features:
+
+  * Precipitation
+  * Minimum Temperature
+  * Wind Speed
+
+* Target output:
+
+  * Maximum Temperature
+
+* Feature scaling: StandardScaler
 
 ## Project Structure
 
-- app.py : Main Streamlit app for ML prediction
-- train_model.py : Script used to train the model
-- weather_dashboard.py : Real-time weather dashboard (additional feature)
-- climate_model.pkl : Trained machine learning model
-- scaler.pkl : Feature scaler
-- README.md : Project documentation
+* app.py : Main Streamlit app for ML prediction
+* train\_model.py : Script used to train the model
+* weather\_dashboard.py : Real-time weather dashboard (additional feature)
+* climate\_model.pkl : Trained machine learning model
+* scaler.pkl : Feature scaler
+* README.md : Project documentation
 
 ## How to Run the Project
 
 1. Install required libraries:
    pip install -r requirements.txt
-
 2. Train the model:
-   python train_model.py
-
+   python train\_model.py
 3. Run the prediction app:
    streamlit run app.py
 
@@ -51,5 +54,33 @@ machine learning predictions.
 ## Author
 
 Shashank Singh  
-B.Tech (CSE / AI-ML)  
+B.Tech (CSE / AI-ML)
+
+
+
+
+
+
+
+
+
+
+
+\## 🔮 Future Updates / Enhancements
+
+
+
+\- Integrating larger and multi-region climate datasets to improve model accuracy.
+
+\- Adding more weather parameters such as humidity, pressure, and cloud cover.
+
+\- Exploring advanced models like XGBoost and LSTM for time-series forecasting.
+
+\- Combining real-time weather APIs with the machine learning model.
+
+\- Deploying the application on cloud platforms like Streamlit Cloud or AWS.
+
+\- Performing long-term climate trend and climate change analysis.
+
+
 
